@@ -1,0 +1,13 @@
+// Welcome to Xi!
+
+// Xi is a toy functional language that compiles to JavaScript.
+
+// This is a variable.
+a := @-> 23
+
+// You wil notice
+
+
+b := @b,c -> b + c
+c := @a -> print(a)
+c(b(a(), a()))
